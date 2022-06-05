@@ -1,7 +1,7 @@
 <script>
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
-  let name = "Andrew";
+  let name = "Andrew Wooldridge";
   
 </script>
 
