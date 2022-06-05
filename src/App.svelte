@@ -1,11 +1,13 @@
 <script>
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  let name = "Andrew";
+  
 </script>
 
 <main>
   <img src={logo} alt="Svelte Logo" />
-  <h1>Hello world!</h1>
+  <h1>Hello {name} !</h1>
 
   <Counter />
 
